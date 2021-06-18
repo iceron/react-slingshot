@@ -22,7 +22,7 @@ jobs:
     steps:
       - checkout
       - run: npm i
-      - run: npm run audit
+      - run: npm audit
 # Orchestrate or schedule a set of jobs
 workflows:
   # Name the workflow "welcome"
